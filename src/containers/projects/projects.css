@@ -1,0 +1,188 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.port {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.sc {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.content.appear {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: all 5s;
+}
+
+.sc img {
+  width: 70%;
+  float: right;
+}
+
+.content {
+  width: 50%;
+  text-align: center;
+  transform: translateX(50%);
+  opacity: 0;
+}
+.content p,
+.content h2,
+.content div {
+  width: 50%;
+  text-align: center;
+  /* background: red; */
+}
+.content p {
+  color: grey;
+}
+.content h2 {
+  text-transform: uppercase;
+}
+
+.content div {
+  margin-top: 10px;
+}
+
+.content div > * {
+  margin-left: 20px;
+}
+
+.k {
+  margin-right: 50px;
+}
+
+.l {
+  color: rgb(8, 110, 144);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  /* justify-self: start; */
+  align-self: start;
+  /* margin-left: 20%; */
+}
+
+.l2 {
+  align-self: start;
+  /* margin-left: 20%; */
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+@media (max-width: 768px) {
+  .l,
+  .l2 {
+    margin-left: 100px;
+  }
+
+  .l2 {
+    font-size: 1rem;
+  }
+
+  .projects {
+    padding: 0;
+    margin: 0;
+  }
+
+  .port {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sc img {
+    width: 50%;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .l2 {
+    font-size: 1rem;
+  }
+  .l,
+  .l2 {
+    margin-left: 20px;
+  }
+
+  .projects {
+    padding: 0;
+    margin: 0;
+  }
+
+  .port {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sc img {
+    width: 70%;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .k {
+    margin-right: 0px;
+    font-weight: 700;
+  }
+
+  .k2 {
+    font-weight: 700;
+  }
+}
