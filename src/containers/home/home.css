@@ -8,6 +8,14 @@
   /* background: red; */
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
 .middle {
   display: flex;
   justify-content: center;

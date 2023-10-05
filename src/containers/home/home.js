@@ -7,7 +7,7 @@ import {
   FaJs,
   FaReact,
 } from "react-icons/fa";
-import img from "./x.jpg";
+import img from "./x.png";
 
 const Home = () => {
   return (
@@ -20,8 +20,13 @@ const Home = () => {
             based in Takoradi,Ghana
             <br />
             <div className="icons">
-              <FaLinkedin size={"30px"} />
-              <FaGithub size={"30px"} />
+              <a href="https://www.linkedin.com/in/akafful" target="_blank">
+                <FaLinkedin size={"30px"} />
+              </a>
+
+              <a href="https://github.com/KINDREW" target="_blank">
+                <FaGithub size={"30px"} />
+              </a>
             </div>
           </p>
         </div>

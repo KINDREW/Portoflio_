@@ -1,10 +1,8 @@
 .navbar {
-  /* background: red; */
   padding-left: 50px;
   padding-right: 50px;
   border-bottom: 0.5px solid rgb(223, 214, 214);
   height: 10vh;
-  /* font-family: "Times New Roman", Times, serif; */
 }
 
 nav {

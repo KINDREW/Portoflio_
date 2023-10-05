@@ -4,14 +4,9 @@
   padding: 100px;
 }
 
-.appear {
-  opacity: 1;
-  transform: translateX(100%);
-}
-
 .r {
   opacity: 0;
-  transition: all 5s;
+  transition: all 2s;
   transform: translateX(-50%);
 }
 
@@ -25,6 +20,7 @@
   padding-left: 50px;
   padding-right: 50px;
   margin-top: -25px;
+  transition: all 2s;
 }
 
 .lef h2 {
@@ -167,6 +163,8 @@
   .z {
     padding: 0;
     margin: 0;
+    width: 200%;
+    /* background: red; */
   }
   .z p h2 {
     color: rgb(8, 110, 144);
@@ -188,13 +186,11 @@
 
   .lef h3 {
     font-size: 14px;
-    width: 85%;
   }
 
   .lef p {
     font-size: 12px;
     /* background: red; */
-    width: 85%;
   }
 
   .heade {
