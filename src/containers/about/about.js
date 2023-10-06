@@ -63,13 +63,6 @@ const About = () => {
               <h4>2017-2021</h4>
             </p>
           </div>
-          <div className="z">
-            <p>
-              <h2>Mfantsipim School</h2>
-              <h3>General Science</h3>
-              <h4>2014-2017</h4>
-            </p>
-          </div>
         </div>
         <div className="rig">
           <div className="z">
