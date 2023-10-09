@@ -8,6 +8,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import img from "./x.png";
+import nxt from "./i.png";
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
       </div>
       <div className="bottom">
         <p>Tech Stack | </p>
-        <div>
+        <div className="stack">
           <FaHtml5
             className="html"
             size={"40px"}
@@ -60,6 +61,7 @@ const Home = () => {
             size={"40px"}
             style={{ color: "lightblue" }}
           />
+          <img className="html" src={nxt} alt="" width="40px" />
         </div>
       </div>
     </div>
