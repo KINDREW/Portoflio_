@@ -44,13 +44,13 @@ const About = () => {
         <h3>A dedicated front-end developer based in takoradi,Ghana</h3>
         <p>
           As a junior Front-End Developer, I possess an impressive arsenal of
-          skills in HTML,CSS, Javascript,React Tailwind. Iexcel indesigning and
-          maintianing responsive webstes that pffer a smooth user experience. My
-          experise lies in crafting dynamiuc,engaging interdaces through writing
-          clean and optimized code and utilizing cutting edge development tools
-          and techniques. Iam also atema player who thrives in ccollaborating
-          with cross-functional teams to produce outstanding web and mobile
-          applications
+          skills in HTML,CSS, Javascript,React Tailwind. I excel in designing
+          and maintianing responsive webstes that offer a smooth user
+          experience. My expertise lies in crafting dynamic,engaging interfaces
+          through writing clean and optimized code and utilizing cutting edge
+          development tools and techniques. Iam also a team player who thrives
+          in collaborating with cross-functional teams to produce outstanding
+          web and mobile applications
         </p>
       </div>
       <div className="r" ref={targetRef}>
